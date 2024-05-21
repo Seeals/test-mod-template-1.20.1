@@ -1,0 +1,9 @@
+{
+  "item.testmod.sapphire": "Sapphire",
+  "item.testmod.ruby": "Ruby",
+
+  "block.testmod.sapphire_block": "Block of Sapphire",
+  "block.testmod.ruby_block": "Block of Ruby",
+
+  "itemgroup.sapphire": "Seeals Group"
+}
