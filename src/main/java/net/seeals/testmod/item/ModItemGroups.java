@@ -1,8 +1,10 @@
 package net.seeals.testmod.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemGroups;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -21,11 +23,18 @@ public class ModItemGroups {
                         entries.add(ModItems.RUBY);
                         entries.add(ModBlocks.SAPPHIRE_BLOCK);
                         entries.add((ModBlocks.RUBY_BLOCK));
+                        entries.add((ModBlocks.SAPPHIRE_ORE));
+                        entries.add((ModItems.RAW_SAPPHIRE));
+                        entries.add(ModBlocks.DEEPSLATE_SAPPHIRE_ORE);
+                        entries.add(ModItems.METAL_DETECTOR);
+                        entries.add(ModBlocks.SOUND_BLOCK);
+                        entries.add(ModItems.SOUND_ITEM_TEST);
 
                     }).build());
 
     public static void registerItemGroups() {
         TestMod.LOGGER.info("Registering Item Groups for" + TestMod.MOD_ID);
+
     }
 
 }

@@ -1,9 +1,14 @@
 {
   "item.testmod.sapphire": "Sapphire",
   "item.testmod.ruby": "Ruby",
+  "item.testmod.raw_sapphire": "Raw Sapphire",
+  "item.testmod.metal_detector": "Metal Detector",
 
   "block.testmod.sapphire_block": "Block of Sapphire",
   "block.testmod.ruby_block": "Block of Ruby",
+  "block.testmod.sapphire_ore": "Sapphire Ore",
+  "block.testmod.deepslate_sapphire_ore": "Deepslate Sapphire ore",
+  "block.testmod.sound_block": "Sound Block?",
 
-  "itemgroup.sapphire": "Seeals Group"
+  "itemgroup.sapphire": "Seeals's test mod!"
 }
