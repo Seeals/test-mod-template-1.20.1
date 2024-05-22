@@ -1,6 +1,5 @@
 package net.seeals.testmod.item;
 
-import net.fabricmc.yarn.constants.MiningLevels;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 

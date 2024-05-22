@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import net.minecraft.item.ArmorItem;
 import net.seeals.testmod.block.ModBlocks;
 import net.seeals.testmod.item.ModItems;
 
@@ -14,7 +15,7 @@ public class ModModelProvider extends FabricModelProvider {
     }
 
     @Override
-        //Genearting model for blocks!
+        //Generating model for blocks!
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RUBY_BLOCK);
         BlockStateModelGenerator.BlockTexturePool sapphirePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SAPPHIRE_BLOCK);
@@ -51,6 +52,11 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.SAPPHIRE_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.SAPPHIRE_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.SAPPHIRE_HOE, Models.HANDHELD);
+        //Armors! You have to cast it to ArmorItem
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SAPPHIRE_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SAPPHIRE_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SAPPHIRE_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SAPPHIRE_BOOTS));
 
 
     }

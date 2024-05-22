@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "testmod:sapphire_helmet",
+    "testmod:sapphire_chestplate",
+    "testmod:sapphire_leggings",
+    "testmod:sapphire_boots"
+  ]
+}

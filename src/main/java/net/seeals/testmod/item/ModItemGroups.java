@@ -1,10 +1,7 @@
 package net.seeals.testmod.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.item.BlockItem;
 import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemGroups;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -37,6 +34,10 @@ public class ModItemGroups {
                         entries.add(ModItems.SAPPHIRE_AXE);
                         entries.add(ModItems.SAPPHIRE_SHOVEL);
                         entries.add(ModItems.SAPPHIRE_HOE);
+                        entries.add(ModItems.SAPPHIRE_HELMET);
+                        entries.add(ModItems.SAPPHIRE_CHESTPLATE);
+                        entries.add(ModItems.SAPPHIRE_LEGGINGS);
+                        entries.add(ModItems.SAPPHIRE_BOOTS);
                     }).build());
 
     public static final ItemGroup SEEALS_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,

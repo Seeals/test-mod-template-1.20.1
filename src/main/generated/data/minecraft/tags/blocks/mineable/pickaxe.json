@@ -3,6 +3,7 @@
   "values": [
     "testmod:ruby_block",
     "testmod:sapphire_block",
-    "testmod:sapphire_ore"
+    "testmod:sapphire_ore",
+    "testmod:deepslate_sapphire_ore"
   ]
 }

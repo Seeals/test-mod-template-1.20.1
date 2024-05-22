@@ -13,6 +13,11 @@
   "item.testmod.sapphire_shovel": "Sapphire Shovel",
   "item.testmod.sapphire_hoe": "Sapphire Hoe",
 
+  "item.testmod.sapphire_helmet": "Sapphire Helmet",
+  "item.testmod.sapphire_chestplate": "Sapphire Chestplate",
+  "item.testmod.sapphire_leggings": "Sapphire Leggings",
+  "item.testmod.sapphire_boots": "Sapphire Boots",
+
   "block.testmod.sapphire_block": "Block of Sapphire",
   "block.testmod.ruby_block": "Block of Ruby",
   "block.testmod.sapphire_ore": "Sapphire Ore",
@@ -31,6 +36,7 @@
 
   "tooltip.testmod.metal_detector.tooltip": "Find things below!!",
   "tooltip.testmod.sound_block.tooltip": "Not as good as a note block",
+  "tooltip.testmod.sapphire_armor": "Gives you haste when wearing full set!",
 
   "itemgroup.sapphire": "Seeals's test mod!",
   "itemgroup.mod_blocks": "Seeals's test mod's blocks!"
