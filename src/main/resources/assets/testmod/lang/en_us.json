@@ -12,5 +12,8 @@
   "block.testmod.deepslate_sapphire_ore": "Deepslate Sapphire ore",
   "block.testmod.sound_block": "Sound Block?",
 
+  "tooltip.testmod.metal_detector.tooltip": "Find things below!!",
+  "tooltip.testmod.sound_block.tooltip": "Not as good as a note block",
+
   "itemgroup.sapphire": "Seeals's test mod!"
 }

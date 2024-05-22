@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:stick"
+    },
+    "B": {
+      "item": "minecraft:iron_ingot"
+    },
+    "C": {
+      "item": "testmod:sapphire"
+    }
+  },
+  "pattern": [
+    "  A",
+    " B ",
+    "CC "
+  ],
+  "result": {
+    "item": "testmod:metal_detector"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,6 @@
+// 1.20.1	2024-05-22T17:29:47.6935722	Test Mod/Block Loot Tables
+f128d56f975f77b844a1224e40caa3255ee70df7 data\testmod\loot_tables\blocks\ruby_block.json
+7e35048202c6751092744c5063b13450fe821234 data\testmod\loot_tables\blocks\sapphire_block.json
+e9e8b2860b7bc4ab12e850be6f7fd21c5bbb8d5a data\testmod\loot_tables\blocks\sound_block.json
+157c3bb8eb39af8d25c1a72b08659df424ac98fa data\testmod\loot_tables\blocks\sapphire_ore.json
+5575f838addfbdd151b36c1e0bcb075364557a76 data\testmod\loot_tables\blocks\deepslate_sapphire_ore.json
