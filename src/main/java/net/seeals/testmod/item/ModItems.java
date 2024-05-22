@@ -17,8 +17,14 @@ public class ModItems { // other items will be added here.
     public static final Item RAW_SAPPHIRE = registerItem("raw_sapphire", new Item(new FabricItemSettings()));
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
 
+    //for advance item, use its item class!
     public static final Item METAL_DETECTOR = registerItem("metal_detector", new MetalDetectorItem(new FabricItemSettings().maxDamage(1024)));
-    public static final Item SOUND_ITEM_TEST= registerItem("sound_item_test", new TestSoundItem(new FabricItemSettings()));      //for advance item, use its item class!
+    public static final Item SOUND_ITEM_TEST= registerItem("sound_item_test", new TestSoundItem(new FabricItemSettings()));
+
+    //for food item, food is not advance item with no custom code, so it use the Item class except in the fabric item setting, do this.
+    public static final Item TOMATO= registerItem("tomato", new Item(new FabricItemSettings().food(ModFoodComponents.TOMATO)));
+    public static final Item COAL_BRIQUETTE= registerItem("coal_briquette", new Item(new FabricItemSettings()));
+
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(SAPPHIRE);
