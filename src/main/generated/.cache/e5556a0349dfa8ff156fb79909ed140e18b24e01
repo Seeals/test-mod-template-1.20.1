@@ -1,6 +1,15 @@
-// 1.20.1	2024-05-22T17:29:47.6935722	Test Mod/Block Loot Tables
+// 1.20.1	2024-05-22T19:00:06.072466	Test Mod/Block Loot Tables
 f128d56f975f77b844a1224e40caa3255ee70df7 data\testmod\loot_tables\blocks\ruby_block.json
+bc62de932d99bba700f75c8c11e1afc94a93c053 data\testmod\loot_tables\blocks\sapphire_button.json
 7e35048202c6751092744c5063b13450fe821234 data\testmod\loot_tables\blocks\sapphire_block.json
+9bf8c177e8ea0547bffa0773de49a61c6b2a798f data\testmod\loot_tables\blocks\sapphire_wall.json
+897ebbd81418bd74d6cf1d50de2e4a35d73bbe54 data\testmod\loot_tables\blocks\sapphire_pressure_plate.json
+d0c5fbc053d2ed0a54bebaffcbde126ee387827d data\testmod\loot_tables\blocks\sapphire_trapdoor.json
+51c133dac2800abb09e496c37aee2f10c1301f21 data\testmod\loot_tables\blocks\sapphire_fence_gate.json
+41d8fd7d715ac01e55fca3ab0f210596bd676a6b data\testmod\loot_tables\blocks\sapphire_door.json
+af830e106a4d80b7060c223c1acf0446b3d59810 data\testmod\loot_tables\blocks\sapphire_fence.json
 e9e8b2860b7bc4ab12e850be6f7fd21c5bbb8d5a data\testmod\loot_tables\blocks\sound_block.json
+2928b758ba3d5af6d083d6ceffd54ebad10d6361 data\testmod\loot_tables\blocks\sapphire_stairs.json
 157c3bb8eb39af8d25c1a72b08659df424ac98fa data\testmod\loot_tables\blocks\sapphire_ore.json
 5575f838addfbdd151b36c1e0bcb075364557a76 data\testmod\loot_tables\blocks\deepslate_sapphire_ore.json
+3efd7140cd27eb46227ff5f07efadc775e608143 data\testmod\loot_tables\blocks\sapphire_slab.json

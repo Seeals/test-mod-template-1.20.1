@@ -31,8 +31,28 @@ public class ModItemGroups {
                         entries.add(ModItems.SOUND_ITEM_TEST);
                         entries.add(ModItems.TOMATO);
                         entries.add(ModItems.COAL_BRIQUETTE);
-
                     }).build());
+
+    public static final ItemGroup SEEALS_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(TestMod.MOD_ID, "mod_blocks"),
+                    FabricItemGroup.builder().displayName(Text.translatable("itemgroup.mod_blocks"))
+                                    .icon(()-> new ItemStack(ModBlocks.SAPPHIRE_STAIRS)).entries((displayContext, entries) -> {
+                                entries.add((ModBlocks.SAPPHIRE_BUTTON));
+                                entries.add((ModBlocks.SAPPHIRE_FENCE));
+                                entries.add((ModBlocks.SAPPHIRE_DOOR));
+                                entries.add((ModBlocks.SAPPHIRE_SLAB));
+                                entries.add((ModBlocks.SAPPHIRE_STAIRS));
+                                entries.add((ModBlocks.SAPPHIRE_PRESSURE_PLATE));
+                                entries.add((ModBlocks.SAPPHIRE_TRAPDOOR));
+                                entries.add((ModBlocks.SAPPHIRE_WALL));
+                                entries.add((ModBlocks.SAPPHIRE_FENCE_GATE));
+                                entries.add(ModBlocks.SAPPHIRE_BLOCK);
+                                entries.add((ModBlocks.SAPPHIRE_ORE));
+                                entries.add((ModBlocks.DEEPSLATE_SAPPHIRE_ORE));
+                                entries.add((ModBlocks.RUBY_BLOCK));
+                            }).build());
+
+
 
     public static void registerItemGroups() {
         TestMod.LOGGER.info("Registering Item Groups for" + TestMod.MOD_ID);

@@ -43,5 +43,12 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RUBY_BLOCK)
                 .add(ModBlocks.DEEPSLATE_SAPPHIRE_ORE);
 
+        getOrCreateTagBuilder(BlockTags.FENCES)
+                .add(ModBlocks.SAPPHIRE_FENCE);
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES)
+                .add(ModBlocks.SAPPHIRE_FENCE_GATE);
+        getOrCreateTagBuilder(BlockTags.WALLS)
+                .add(ModBlocks.SAPPHIRE_WALL);
+
     }
 }

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "sapphire",
+  "ingredients": [
+    {
+      "item": "testmod:sapphire"
+    }
+  ],
+  "result": {
+    "item": "testmod:sapphire_button"
+  }
+}

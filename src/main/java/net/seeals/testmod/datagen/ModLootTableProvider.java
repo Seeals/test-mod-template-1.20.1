@@ -30,6 +30,17 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.SAPPHIRE_BLOCK);
         addDrop(ModBlocks.SOUND_BLOCK);
 
+        addDrop(ModBlocks.SAPPHIRE_FENCE);
+        addDrop(ModBlocks.SAPPHIRE_TRAPDOOR);
+        addDrop(ModBlocks.SAPPHIRE_WALL);
+        addDrop(ModBlocks.SAPPHIRE_STAIRS);
+        addDrop(ModBlocks.SAPPHIRE_FENCE_GATE);
+        addDrop(ModBlocks.SAPPHIRE_BUTTON);
+        addDrop(ModBlocks.SAPPHIRE_PRESSURE_PLATE);
+        addDrop(ModBlocks.SAPPHIRE_DOOR, doorDrops(ModBlocks.SAPPHIRE_DOOR)); //Don't forget to do this for doors and slab!
+        addDrop(ModBlocks.SAPPHIRE_SLAB, slabDrops(ModBlocks.SAPPHIRE_SLAB));
+
+
         //For ores (or any special drop loottables) you can just copy the method from minecraft, rename it, and give it a generalize variable and then input it in easily like this. Check BlockLootTableGenerator class!
         addDrop(ModBlocks.SAPPHIRE_ORE, copperLikeOreDrops(ModBlocks.SAPPHIRE_ORE, ModItems.SAPPHIRE));
         addDrop(ModBlocks.DEEPSLATE_SAPPHIRE_ORE, copperLikeOreDrops(ModBlocks.DEEPSLATE_SAPPHIRE_ORE, ModItems.SAPPHIRE));

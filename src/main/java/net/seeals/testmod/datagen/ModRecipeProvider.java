@@ -6,6 +6,7 @@ import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
+import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.util.Identifier;
 import net.seeals.testmod.block.ModBlocks;
@@ -34,6 +35,16 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.SAPPHIRE, RecipeCategory.MISC, ModBlocks.SAPPHIRE_BLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.RUBY, RecipeCategory.MISC, ModBlocks.RUBY_BLOCK);
 
+        //Just adding some misc blocks recipes!
+        createFenceGateRecipe(ModBlocks.SAPPHIRE_FENCE_GATE, Ingredient.ofItems(ModItems.SAPPHIRE)).criterion(hasItem(ModItems.SAPPHIRE), conditionsFromItem(ModItems.SAPPHIRE)).offerTo(exporter, new Identifier(getRecipeName(ModBlocks.SAPPHIRE_FENCE_GATE)));
+        createFenceRecipe(ModBlocks.SAPPHIRE_FENCE, Ingredient.ofItems(ModItems.SAPPHIRE)).criterion(hasItem(ModItems.SAPPHIRE), conditionsFromItem(ModItems.SAPPHIRE)).offerTo(exporter, new Identifier(getRecipeName(ModBlocks.SAPPHIRE_FENCE)));
+        createDoorRecipe(ModBlocks.SAPPHIRE_DOOR, Ingredient.ofItems(ModItems.SAPPHIRE)).criterion(hasItem(ModItems.SAPPHIRE), conditionsFromItem(ModItems.SAPPHIRE)).offerTo(exporter, new Identifier(getRecipeName(ModBlocks.SAPPHIRE_DOOR)));
+        createStairsRecipe(ModBlocks.SAPPHIRE_STAIRS, Ingredient.ofItems(ModItems.SAPPHIRE)).criterion(hasItem(ModItems.SAPPHIRE), conditionsFromItem(ModItems.SAPPHIRE)).offerTo(exporter, new Identifier(getRecipeName(ModBlocks.SAPPHIRE_STAIRS)));
+        offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SAPPHIRE_WALL, ModItems.SAPPHIRE);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SAPPHIRE_SLAB, ModItems.SAPPHIRE);
+        offerPressurePlateRecipe(exporter,ModBlocks.SAPPHIRE_PRESSURE_PLATE, ModItems.SAPPHIRE);
+        offerShapelessRecipe(exporter, ModBlocks.SAPPHIRE_BUTTON, ModItems.SAPPHIRE, "sapphire", 1);
+
         //This one generates shape recipes!
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.METAL_DETECTOR, 1)
                 .pattern("  A")
@@ -44,6 +55,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('C', ModItems.SAPPHIRE)
                 .criterion(hasItem(ModItems.SAPPHIRE), conditionsFromItem(ModItems.SAPPHIRE))      //This line is needed!! Criteria for the item to show up in the recipe boo
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.METAL_DETECTOR)));        //Call the recipe in a specify name. In this case, it calls the same name as the metal detector item.
+
+
 
     }
 }

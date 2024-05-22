@@ -2,9 +2,7 @@ package net.seeals.testmod.block;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.ExperienceDroppingBlock;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -30,8 +28,30 @@ public class ModBlocks {
     public static final Block DEEPSLATE_SAPPHIRE_ORE = registerBlock("deepslate_sapphire_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE).strength(2.5f), UniformIntProvider.create(5, 10)));
 
-    public static final Block SOUND_BLOCK = registerBlock("sound_block",                    //REMEMBER!! Creating new custom blocks doesnt use Block class but use your custom block's class instead!
+    //REMEMBER!! Creating new custom blocks doesnt use Block class but use your custom block's class instead!
+    public static final Block SOUND_BLOCK = registerBlock("sound_block",
             new SoundBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
+
+    //Making misc blocks! Stairs, fence, buttons, doors, etc! (Make sure to check correct parameters for each blocks!)
+    public static final Block SAPPHIRE_STAIRS = registerBlock("sapphire_stairs",
+            new StairsBlock(ModBlocks.SAPPHIRE_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.REDSTONE_BLOCK)));
+    public static final Block SAPPHIRE_SLAB = registerBlock("sapphire_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.REDSTONE_BLOCK)));
+    public static final Block SAPPHIRE_BUTTON = registerBlock("sapphire_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.REDSTONE_BLOCK), BlockSetType.IRON, 10, true));
+    public static final Block SAPPHIRE_PRESSURE_PLATE = registerBlock("sapphire_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.MOBS, FabricBlockSettings.copyOf(Blocks.REDSTONE_BLOCK), BlockSetType.IRON));
+    public static final Block SAPPHIRE_FENCE = registerBlock("sapphire_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.REDSTONE_BLOCK)));
+    public static final Block SAPPHIRE_FENCE_GATE = registerBlock("sapphire_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.REDSTONE_BLOCK), WoodType.ACACIA));
+    public static final Block SAPPHIRE_WALL = registerBlock("sapphire_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.REDSTONE_BLOCK)));
+    public static final Block SAPPHIRE_DOOR = registerBlock("sapphire_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.REDSTONE_BLOCK).nonOpaque(), BlockSetType.STONE));
+    public static final Block SAPPHIRE_TRAPDOOR = registerBlock("sapphire_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.REDSTONE_BLOCK).nonOpaque(), BlockSetType.STONE));
+
 
 
     //helper method for registering the block itself (and the item)
@@ -43,8 +63,6 @@ public class ModBlocks {
     //helper method for registering new block as an item
     private static Item registerBlockItem(String name, Block block) {
         return Registry.register(Registries.ITEM, new Identifier(TestMod.MOD_ID, name), new BlockItem(block, new FabricItemSettings()));
-
-
     }
 
     public static void registerModBlocks () {
