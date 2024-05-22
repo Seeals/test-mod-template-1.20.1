@@ -1,4 +1,4 @@
-// 1.20.1	2024-05-22T19:00:06.0704664	Test Mod/Model Definitions
+// 1.20.1	2024-05-22T20:54:25.9970892	Test Mod/Model Definitions
 90d67030c8ec710b988b919bfa71c3e9c5fc9e6b assets\testmod\models\item\tomato.json
 5357d42e1cf4c959074586cc48c957e61433740a assets\testmod\models\block\ruby_block.json
 7c108ae327baeed8551d647351648909926fbc16 assets\testmod\models\item\sapphire_pressure_plate.json
@@ -14,21 +14,25 @@ f47c961fa567599ccb625c053987f68ec4878848 assets\testmod\models\block\sapphire_bu
 ce18794b25ede43fdf6fb032d1f3b3b3af80d86d assets\testmod\models\block\sapphire_fence_gate_wall.json
 9d7dae6c94c8f5e38729be4b5f19f2ff118423e4 assets\testmod\blockstates\sapphire_ore.json
 e6b802aab6d5d6f2e9bfc66f316ae054b1285e32 assets\testmod\models\block\sapphire_stairs.json
+72a052ce87a4f263a77d31a45581fa7f3cf3db66 assets\testmod\models\item\sapphire_axe.json
 3daecaf23d9f717182a25d06a5c455a6162f6f61 assets\testmod\models\item\sapphire_fence.json
 2ab58535f13db27f52812920353c086b8ce55a2b assets\testmod\models\block\sapphire_trapdoor_open.json
 60f23667bc72bfed232efe04f1189c2601411145 assets\testmod\blockstates\sapphire_block.json
 b98f89b4e54a55f6eb33d6e4bc372518ebccba6f assets\testmod\models\item\coal_briquette.json
 73bdc662cd76bd80da71284b065bbbf3a612b799 assets\testmod\blockstates\sapphire_trapdoor.json
 862c76225b2a67f2cc8ae4e57f2974f01ecd3ad3 assets\testmod\models\block\sapphire_stairs_inner.json
+2b19aaec3a9a5838ed80a8ec8a41b4a43123a505 assets\testmod\models\item\sapphire_hoe.json
 455da553be6af7f7beaa9f957b80fff7b5970e3d assets\testmod\models\block\sapphire_button_inventory.json
 0f5d4fd5224b0d281e7ea49cb110dea149716920 assets\testmod\models\block\sapphire_wall_side.json
 1df71b530aa26804c4591ed7e9a1f630d77a6402 assets\testmod\blockstates\sapphire_wall.json
 8a9aaecf36a7a5d3ac526df34924636381f71486 assets\testmod\models\block\sapphire_button_pressed.json
+1022da2df9e8d4c5d87e7783590601b2e98d4526 assets\testmod\models\item\sapphire_sword.json
 4c379eb7ddf226a5c06c5d6bcda1541e0bcf928e assets\testmod\blockstates\sapphire_fence_gate.json
 252c792abfd81ffc9c96451afdedeb6bf6be9eda assets\testmod\models\item\sapphire_trapdoor.json
 65773668a84a60eab429c26fda251a9f4c9aabed assets\testmod\models\block\sapphire_door_bottom_right.json
 59c21b5b4ab294ae7b8d097c562c6bd9871d702b assets\testmod\blockstates\sapphire_fence.json
 d2c377ed008aeeb74b845aa97d6c4ab5bc85c45b assets\testmod\models\block\sapphire_pressure_plate.json
+bcfb777888b5530096f5e4b38aabdbf9b837d50a assets\testmod\models\item\sapphire_pickaxe.json
 99e97fb5caa42823e29a325a9d43eeb93cecc16e assets\testmod\models\block\sapphire_fence_gate.json
 5f9a33e160a169fbfdba568ada7fbfc002ce5750 assets\testmod\models\block\deepslate_sapphire_ore.json
 f107ab31ddad63b819c465c63568ee8d1bce2831 assets\testmod\models\block\sapphire_door_bottom_left_open.json
@@ -70,3 +74,4 @@ a95b11804b67e53163e1c240b8e092bf2cdda3d9 assets\testmod\models\item\sapphire_ore
 36a338ab10b682ec4c6c8b6b02ff9b5d1117c7b1 assets\testmod\models\item\sapphire_wall.json
 2f41f2b970d351507c3598ede3a24acfda5acc78 assets\testmod\models\item\raw_sapphire.json
 ccce52e5b930faa3f9fdb458932384af33cdc03c assets\testmod\models\block\sound_block.json
+a9e7bed66132634aac5890d903ab07c3aa5cfc16 assets\testmod\models\item\sapphire_shovel.json

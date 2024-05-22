@@ -24,7 +24,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         super(output);
     }
 
-    //provides recipes. Check RecipeProvider class!
+    //provides recipes. Check RecipeProvider class! (note here I didn't make the shaped ones for staff and tools cus lazy)
 
     @Override
     public void generate(Consumer<RecipeJsonProvider> exporter) {

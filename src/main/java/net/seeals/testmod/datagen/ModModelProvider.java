@@ -14,6 +14,7 @@ public class ModModelProvider extends FabricModelProvider {
     }
 
     @Override
+        //Genearting model for blocks!
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RUBY_BLOCK);
         BlockStateModelGenerator.BlockTexturePool sapphirePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SAPPHIRE_BLOCK);
@@ -36,6 +37,7 @@ public class ModModelProvider extends FabricModelProvider {
     }
 
     @Override
+    //Generating models for items! (not 3D)
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.SAPPHIRE, Models.GENERATED);
         itemModelGenerator.register(ModItems.COAL_BRIQUETTE, Models.GENERATED);
@@ -43,6 +45,13 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.RUBY, Models.GENERATED);
         itemModelGenerator.register(ModItems.TOMATO, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_SAPPHIRE, Models.GENERATED);
+        //Models (that's not 3D) for handheld items need to use Models.HANDHELD!!!
+        itemModelGenerator.register(ModItems.SAPPHIRE_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.SAPPHIRE_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.SAPPHIRE_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.SAPPHIRE_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.SAPPHIRE_HOE, Models.HANDHELD);
+
 
     }
 }

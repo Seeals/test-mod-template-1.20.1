@@ -2,7 +2,6 @@
   "replace": false,
   "values": [
     "testmod:sapphire_block",
-    "testmod:ruby_block",
     "testmod:deepslate_sapphire_ore"
   ]
 }

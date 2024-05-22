@@ -5,6 +5,13 @@
   "item.testmod.metal_detector": "Metal Detector",
   "item.testmod.tomato": "Tomato :3",
   "item.testmod.coal_briquette": "Coal Briquette!",
+  "item.testmod.sapphire_staff": "Sapphire Staff",
+
+  "item.testmod.sapphire_sword": "Sapphire Sword",
+  "item.testmod.sapphire_pickaxe": "Sapphire Pickaxe",
+  "item.testmod.sapphire_axe": "Sapphire Axe",
+  "item.testmod.sapphire_shovel": "Sapphire Shovel",
+  "item.testmod.sapphire_hoe": "Sapphire Hoe",
 
   "block.testmod.sapphire_block": "Block of Sapphire",
   "block.testmod.ruby_block": "Block of Ruby",

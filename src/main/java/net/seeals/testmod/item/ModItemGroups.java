@@ -31,6 +31,12 @@ public class ModItemGroups {
                         entries.add(ModItems.SOUND_ITEM_TEST);
                         entries.add(ModItems.TOMATO);
                         entries.add(ModItems.COAL_BRIQUETTE);
+                        entries.add(ModItems.SAPPHIRE_STAFF);
+                        entries.add(ModItems.SAPPHIRE_SWORD);
+                        entries.add(ModItems.SAPPHIRE_PICKAXE);
+                        entries.add(ModItems.SAPPHIRE_AXE);
+                        entries.add(ModItems.SAPPHIRE_SHOVEL);
+                        entries.add(ModItems.SAPPHIRE_HOE);
                     }).build());
 
     public static final ItemGroup SEEALS_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,

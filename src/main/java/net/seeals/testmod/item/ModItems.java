@@ -3,8 +3,7 @@ package net.seeals.testmod.item;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -20,6 +19,12 @@ public class ModItems { // other items will be added here.
     //for advance item, use its item class!
     public static final Item METAL_DETECTOR = registerItem("metal_detector", new MetalDetectorItem(new FabricItemSettings().maxDamage(1024)));
     public static final Item SOUND_ITEM_TEST= registerItem("sound_item_test", new TestSoundItem(new FabricItemSettings()));
+    public static final Item SAPPHIRE_STAFF = registerItem("sapphire_staff", new Item(new FabricItemSettings().maxDamage(2048)));
+    public static final Item SAPPHIRE_PICKAXE = registerItem("sapphire_pickaxe", new PickaxeItem(ModToolMaterial.SAPPHIRE, 4, 2f, new FabricItemSettings().maxDamage(2048)));
+    public static final Item SAPPHIRE_AXE = registerItem("sapphire_axe", new AxeItem(ModToolMaterial.SAPPHIRE, 13, 1.25f, new FabricItemSettings().maxDamage(2048)));
+    public static final Item SAPPHIRE_SHOVEL = registerItem("sapphire_shovel", new ShovelItem(ModToolMaterial.SAPPHIRE, 3, 2f, new FabricItemSettings().maxDamage(2048)));
+    public static final Item SAPPHIRE_SWORD = registerItem("sapphire_sword", new SwordItem(ModToolMaterial.SAPPHIRE, 8, 3f, new FabricItemSettings().maxDamage(2048)));
+    public static final Item SAPPHIRE_HOE = registerItem("sapphire_hoe", new HoeItem(ModToolMaterial.SAPPHIRE, 3, 2f, new FabricItemSettings().maxDamage(2048)));
 
     //for food item, food is not advance item with no custom code, so it use the Item class except in the fabric item setting, do this.
     public static final Item TOMATO= registerItem("tomato", new Item(new FabricItemSettings().food(ModFoodComponents.TOMATO)));

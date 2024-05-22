@@ -1,6 +1,6 @@
-// 1.20.1	2024-05-22T19:00:06.072466	Test Mod/Block Loot Tables
-f128d56f975f77b844a1224e40caa3255ee70df7 data\testmod\loot_tables\blocks\ruby_block.json
+// 1.20.1	2024-05-22T20:54:25.9990899	Test Mod/Block Loot Tables
 bc62de932d99bba700f75c8c11e1afc94a93c053 data\testmod\loot_tables\blocks\sapphire_button.json
+f128d56f975f77b844a1224e40caa3255ee70df7 data\testmod\loot_tables\blocks\ruby_block.json
 7e35048202c6751092744c5063b13450fe821234 data\testmod\loot_tables\blocks\sapphire_block.json
 9bf8c177e8ea0547bffa0773de49a61c6b2a798f data\testmod\loot_tables\blocks\sapphire_wall.json
 897ebbd81418bd74d6cf1d50de2e4a35d73bbe54 data\testmod\loot_tables\blocks\sapphire_pressure_plate.json

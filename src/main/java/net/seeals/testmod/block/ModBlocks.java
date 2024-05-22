@@ -26,7 +26,7 @@ public class ModBlocks {
     public static final Block SAPPHIRE_ORE = registerBlock("sapphire_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.STONE).strength(2f), UniformIntProvider.create(5, 10)));
     public static final Block DEEPSLATE_SAPPHIRE_ORE = registerBlock("deepslate_sapphire_ore",
-            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE).strength(2.5f), UniformIntProvider.create(5, 10)));
+            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE).strength(2.3f), UniformIntProvider.create(5, 10)));
 
     //REMEMBER!! Creating new custom blocks doesnt use Block class but use your custom block's class instead!
     public static final Block SOUND_BLOCK = registerBlock("sound_block",
