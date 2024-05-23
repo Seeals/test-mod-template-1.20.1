@@ -7,6 +7,7 @@ import net.seeals.testmod.block.ModBlocks;
 import net.seeals.testmod.item.ModFuelItems;
 import net.seeals.testmod.item.ModItemGroups;
 import net.seeals.testmod.item.ModItems;
+import net.seeals.testmod.util.ModLootTableModifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -23,6 +24,8 @@ public class TestMod implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModBlocks.registerModBlocks();
 		ModFuelItems.registerFuels();
+
+		ModLootTableModifier.modifyLootTables();
 
 
 	}
