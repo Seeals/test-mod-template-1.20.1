@@ -8,6 +8,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.seeals.testmod.TestMod;
+import net.seeals.testmod.block.ModBlocks;
 import net.seeals.testmod.item.custom.MetalDetectorItem;
 import net.seeals.testmod.item.custom.ModArmorItem;
 import net.seeals.testmod.item.custom.ModArmorMaterial;
@@ -17,6 +18,7 @@ public class ModItems { // other items will be added here.
     public static final Item SAPPHIRE = registerItem("sapphire", new Item(new FabricItemSettings()));
     public static final Item RAW_SAPPHIRE = registerItem("raw_sapphire", new Item(new FabricItemSettings()));
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
+    public static final Item COAL_BRIQUETTE= registerItem("coal_briquette", new Item(new FabricItemSettings()));
 
     //for advance item, use its item class!
     public static final Item METAL_DETECTOR = registerItem("metal_detector", new MetalDetectorItem(new FabricItemSettings().maxDamage(1024)));
@@ -36,7 +38,10 @@ public class ModItems { // other items will be added here.
 
     //for food item, food is not advance item with no custom code, so it use the Item class except in the fabric item setting, do this.
     public static final Item TOMATO= registerItem("tomato", new Item(new FabricItemSettings().food(ModFoodComponents.TOMATO)));
-    public static final Item COAL_BRIQUETTE= registerItem("coal_briquette", new Item(new FabricItemSettings()));
+    public static final Item CORN= registerItem("corn", new Item(new FabricItemSettings().food(ModFoodComponents.TOMATO)));
+    //for adding seeds item. We use AliasedBlockItem so we could add it to the translation json using tomato_seeds instead of the name of the block itself.
+    public static final Item TOMATO_SEEDS = registerItem("tomato_seeds", new AliasedBlockItem(ModBlocks.TOMATO_CROP, new FabricItemSettings()));
+    public static final Item CORN_SEEDS = registerItem("corn_seeds", new AliasedBlockItem(ModBlocks.CORN_CROP, new FabricItemSettings()));
 
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {

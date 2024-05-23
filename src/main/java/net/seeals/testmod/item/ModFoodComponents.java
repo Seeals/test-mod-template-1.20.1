@@ -11,4 +11,5 @@ public class ModFoodComponents {
     // build new food item. check FoodComponents class for more examples.
     public static final FoodComponent TOMATO = new FoodComponent.Builder().hunger(3).saturationModifier(.25f)
             .statusEffect(new StatusEffectInstance((StatusEffects.GLOWING), 200), 90).build();
+    public static final FoodComponent CORN = new FoodComponent.Builder().hunger(4).saturationModifier(.25f).build();
 }

@@ -1,8 +1,10 @@
-// 1.20.1	2024-05-22T22:05:47.0013395	Test Mod/Block Loot Tables
+// 1.20.1	2024-05-23T19:49:58.1587645	Test Mod/Block Loot Tables
 f128d56f975f77b844a1224e40caa3255ee70df7 data\testmod\loot_tables\blocks\ruby_block.json
 bc62de932d99bba700f75c8c11e1afc94a93c053 data\testmod\loot_tables\blocks\sapphire_button.json
+81501696a7ddd1792070b9a46b785379b8f2639d data\testmod\loot_tables\blocks\tomato_crop.json
 7e35048202c6751092744c5063b13450fe821234 data\testmod\loot_tables\blocks\sapphire_block.json
 9bf8c177e8ea0547bffa0773de49a61c6b2a798f data\testmod\loot_tables\blocks\sapphire_wall.json
+d1f6511e011a40996e0575c5168049071d5cff06 data\testmod\loot_tables\blocks\corn_crop.json
 897ebbd81418bd74d6cf1d50de2e4a35d73bbe54 data\testmod\loot_tables\blocks\sapphire_pressure_plate.json
 d0c5fbc053d2ed0a54bebaffcbde126ee387827d data\testmod\loot_tables\blocks\sapphire_trapdoor.json
 51c133dac2800abb09e496c37aee2f10c1301f21 data\testmod\loot_tables\blocks\sapphire_fence_gate.json
