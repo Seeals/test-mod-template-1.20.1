@@ -35,6 +35,9 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.SAPPHIRE_BLOCK);
         addDrop(ModBlocks.SOUND_BLOCK);
 
+        addDrop(ModBlocks.DAHLIA);
+        addPottedPlantDrops(ModBlocks.POTTED_DAHLIA);
+
         addDrop(ModBlocks.SAPPHIRE_FENCE);
         addDrop(ModBlocks.SAPPHIRE_TRAPDOOR);
         addDrop(ModBlocks.SAPPHIRE_WALL);

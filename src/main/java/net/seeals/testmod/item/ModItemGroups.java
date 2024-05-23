@@ -41,6 +41,7 @@ public class ModItemGroups {
                         entries.add(ModItems.TOMATO_SEEDS);
                         entries.add(ModItems.CORN);
                         entries.add(ModItems.CORN_SEEDS);
+                        entries.add(ModBlocks.DAHLIA);
                     }).build());
 
     public static final ItemGroup SEEALS_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
