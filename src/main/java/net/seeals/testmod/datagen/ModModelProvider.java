@@ -51,6 +51,7 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     //Generating models for items! (not 3D)
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
+        //Normal item models added here!
         itemModelGenerator.register(ModItems.SAPPHIRE, Models.GENERATED);
         itemModelGenerator.register(ModItems.COAL_BRIQUETTE, Models.GENERATED);
         itemModelGenerator.register(ModItems.METAL_DETECTOR, Models.GENERATED);
@@ -58,6 +59,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.TOMATO, Models.GENERATED);
         itemModelGenerator.register(ModItems.CORN, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_SAPPHIRE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BAR_BRAWL_MUSIC_DISC, Models.GENERATED);
         //Models (that's not 3D) for handheld items need to use Models.HANDHELD!!!
         itemModelGenerator.register(ModItems.SAPPHIRE_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.SAPPHIRE_SHOVEL, Models.HANDHELD);

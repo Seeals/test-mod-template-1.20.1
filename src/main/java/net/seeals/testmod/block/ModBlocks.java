@@ -15,6 +15,7 @@ import net.seeals.testmod.TestMod;
 import net.seeals.testmod.block.custom.CornCropBlock;
 import net.seeals.testmod.block.custom.SoundBlock;
 import net.seeals.testmod.block.custom.TomatoCropBlock;
+import net.seeals.testmod.sound.ModSounds;
 
 public class ModBlocks {
 
@@ -33,7 +34,7 @@ public class ModBlocks {
 
     //REMEMBER!! Creating new custom blocks doesnt use Block class but use your custom block's class instead!
     public static final Block SOUND_BLOCK = registerBlock("sound_block",
-            new SoundBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
+            new SoundBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL).sounds(ModSounds.SOUND_BLOCK_SOUNDS)));
 
     //Making misc blocks! Stairs, fence, buttons, doors, etc! (Make sure to check correct parameters for each blocks!)
     public static final Block SAPPHIRE_STAIRS = registerBlock("sapphire_stairs",

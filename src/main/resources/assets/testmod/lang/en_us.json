@@ -10,6 +10,9 @@
   "item.testmod.coal_briquette": "Coal Briquette!",
   "item.testmod.sapphire_staff": "Sapphire Staff",
 
+  "item.testmod.bar_brawl_music_disc": "'Bar Brawl' Music Disc",
+  "item.testmod.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
+
   "item.testmod.sapphire_sword": "Sapphire Sword",
   "item.testmod.sapphire_pickaxe": "Sapphire Pickaxe",
   "item.testmod.sapphire_axe": "Sapphire Axe",
@@ -43,6 +46,11 @@
   "tooltip.testmod.sound_block.tooltip": "Not as good as a note block",
   "tooltip.testmod.sapphire_armor": "Gives you haste when wearing full set!",
 
+  "entity.minecraft.villager.sound_master": "Soundmaster",
+
   "itemgroup.sapphire": "Seeals's test mod!",
-  "itemgroup.mod_blocks": "Seeals's test mod's blocks!"
+  "itemgroup.mod_blocks": "Seeals's test mod's blocks!",
+
+
+  "sounds.testmod.metal_detector_found_ore": "Metal Detector Jingle"
 }

@@ -1,2 +1,5 @@
-// 1.20.1	2024-05-23T23:45:56.5265123	Test Mod/Tags for minecraft:item
+// 1.20.1	2024-05-24T16:59:19.4705379	Test Mod/Tags for minecraft:item
+c7debfddba4652ee436c00a29f602975d3c3ee9b data\minecraft\tags\items\creeper_igniters.json
+c7debfddba4652ee436c00a29f602975d3c3ee9b data\minecraft\tags\items\music_discs.json
+c7debfddba4652ee436c00a29f602975d3c3ee9b data\minecraft\tags\items\creeper_drop_music_discs.json
 009b8619c6c2562ff262ceb9a6a848132ea56b56 data\minecraft\tags\items\trimmable_armor.json

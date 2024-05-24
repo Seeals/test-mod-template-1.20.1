@@ -1,4 +1,4 @@
-// 1.20.1	2024-05-23T23:45:56.5285618	Test Mod/Recipes
+// 1.20.1	2024-05-24T16:59:19.4725387	Test Mod/Recipes
 c9f695a0d1cbfc40b04bf0f725a0cf982ff3edd1 data\testmod\advancements\recipes\building_blocks\ruby.json
 05b14625a95037407f47c3fc7a2172900f44b162 data\testmod\advancements\recipes\redstone\sapphire_pressure_plate.json
 08466a5ca4772fb0bd6717d5be72030f347c1996 data\testmod\advancements\recipes\building_blocks\sapphire.json
@@ -27,8 +27,8 @@ fee6b69c5c75ba9e0bfb5f1605c40339efdd2334 data\testmod\advancements\recipes\build
 19e68f8b00906bc3c518009fac8ffaeadbaed632 data\testmod\advancements\recipes\misc\sapphire_from_blasting_raw_sapphire.json
 f9208a8d08880de87b82c7a174a236e44fd66775 data\testmod\advancements\recipes\redstone\sapphire_door.json
 d3a805a1e07bb58c06ffeb065a7a8087502880d8 data\testmod\advancements\recipes\building_blocks\sapphire_stairs.json
-499ae66cf45a3c0caab89015047b484d074a4edd data\testmod\recipes\sapphire_door.json
 4b65926db326c3bbe9cf9e1d0ce11a7bd0e9a7e7 data\testmod\recipes\sapphire_fence_gate.json
+499ae66cf45a3c0caab89015047b484d074a4edd data\testmod\recipes\sapphire_door.json
 5d8579eaeea5b81dd8d6a38ad531a4e3e46a8270 data\testmod\advancements\recipes\misc\ruby_block.json
 2ea10fea59aee042c83f3eb30ecce6af5bb6e332 data\testmod\advancements\recipes\misc\sapphire_from_smelting_raw_sapphire.json
 ed31f158304dfd25c3ac85f4e9187dfcc3e7f446 data\testmod\advancements\recipes\misc\sapphire_from_smelting_sapphire_ore.json

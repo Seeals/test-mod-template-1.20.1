@@ -42,6 +42,7 @@ public class ModItemGroups {
                         entries.add(ModItems.CORN);
                         entries.add(ModItems.CORN_SEEDS);
                         entries.add(ModBlocks.DAHLIA);
+                        entries.add(ModItems.BAR_BRAWL_MUSIC_DISC);
                     }).build());
 
     public static final ItemGroup SEEALS_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,

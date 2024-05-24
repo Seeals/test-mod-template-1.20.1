@@ -13,12 +13,15 @@ import net.seeals.testmod.item.custom.MetalDetectorItem;
 import net.seeals.testmod.item.custom.ModArmorItem;
 import net.seeals.testmod.item.custom.ModArmorMaterial;
 import net.seeals.testmod.item.custom.TestSoundItem;
+import net.seeals.testmod.sound.ModSounds;
 
 public class ModItems { // other items will be added here.
     public static final Item SAPPHIRE = registerItem("sapphire", new Item(new FabricItemSettings()));
     public static final Item RAW_SAPPHIRE = registerItem("raw_sapphire", new Item(new FabricItemSettings()));
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
     public static final Item COAL_BRIQUETTE= registerItem("coal_briquette", new Item(new FabricItemSettings()));
+    //Music discs!
+    public static final Item BAR_BRAWL_MUSIC_DISC= registerItem("bar_brawl_music_disc", new MusicDiscItem(7, ModSounds.BAR_BRAWL, new FabricItemSettings().maxCount(1), 122));
 
     //for advance item, use its item class!
     public static final Item METAL_DETECTOR = registerItem("metal_detector", new MetalDetectorItem(new FabricItemSettings().maxDamage(1024)));
