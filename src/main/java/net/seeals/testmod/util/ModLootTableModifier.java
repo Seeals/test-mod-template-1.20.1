@@ -52,18 +52,18 @@ public class ModLootTableModifier {
                 }
         });
 
-        //SUS SAND!! Need replace events! We're not really replacing the loot table of the sus sand here, we're modifying it. But it has to be done this way because after it gave the first item to the player, the rest is discards. So its a bit wierd.
+        //SUS SAND!! Need replace events! We're not really replacing the loot table of the sus sand here, we're modifying it. But it has to be done this way because after it gave the first item to the player, the rest is discards. So its a bit wierd. SADLY ITS NOT WORKING IN 1.12.2
         LootTableEvents.REPLACE.register(((resourceManager, lootManager, id, original, source) -> {
-            if(SUSPICIOUS_SAND_ID.equals(id)) {                                                                 //
-                List<LootPoolEntry> entries =  new ArrayList<>(Arrays.asList(original.pools[0].entries));       //specifying the entries that already exist. In this case, the desert pyramid archaeology. This reads out the list and adds the new entries
-                entries.add(ItemEntry.builder(ModItems.METAL_DETECTOR).build());                                //Adding to the list
-                entries.add(ItemEntry.builder(ModItems.RUBY).build());
-                entries.add(ItemEntry.builder(ModItems.RAW_SAPPHIRE).build());
-
-                LootPool.Builder pool = LootPool.builder().with(entries);
-                return LootTable.builder().pool(pool).build();                                                  //replacing said list
-
-            }
+//            if(SUSPICIOUS_SAND_ID.equals(id)) {                                                                 //
+//                List<LootPoolEntry> entries =  new ArrayList<>(Arrays.asList(original.pools[0].entries));       //specifying the entries that already exist. In this case, the desert pyramid archaeology. This reads out the list and adds the new entries
+//                entries.add(ItemEntry.builder(ModItems.METAL_DETECTOR).build());                                //Adding to the list
+//                entries.add(ItemEntry.builder(ModItems.RUBY).build());
+//                entries.add(ItemEntry.builder(ModItems.RAW_SAPPHIRE).build());
+//
+//                LootPool.Builder pool = LootPool.builder().with(entries);
+//                return LootTable.builder().pool(pool).build();                                                  //replacing said list
+//
+//            }
 
 
             return null; //You have to return the replaced loot table or null if it wasn't replaced. So this is like a safety barrier

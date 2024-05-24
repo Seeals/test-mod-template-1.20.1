@@ -38,7 +38,7 @@
   "bar_brawl": {
     "sounds": [
       {
-        "name": "testmod.bar_brawl",
+        "name": "testmod:bar_brawl",
         "stream": true
       }
     ]
