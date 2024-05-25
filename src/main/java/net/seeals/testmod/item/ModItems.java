@@ -9,6 +9,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.seeals.testmod.TestMod;
 import net.seeals.testmod.block.ModBlocks;
+import net.seeals.testmod.entity.ModEntities;
 import net.seeals.testmod.item.custom.MetalDetectorItem;
 import net.seeals.testmod.item.custom.ModArmorItem;
 import net.seeals.testmod.item.custom.ModArmorMaterial;
@@ -45,6 +46,9 @@ public class ModItems { // other items will be added here.
     //for adding seeds item. We use AliasedBlockItem so we could add it to the translation json using tomato_seeds instead of the name of the block itself.
     public static final Item TOMATO_SEEDS = registerItem("tomato_seeds", new AliasedBlockItem(ModBlocks.TOMATO_CROP, new FabricItemSettings()));
     public static final Item CORN_SEEDS = registerItem("corn_seeds", new AliasedBlockItem(ModBlocks.CORN_CROP, new FabricItemSettings()));
+
+    //Spawn eggs!
+    public static final Item PORCUPINE_SPAWN_EGG = registerItem("porcupine_spawn_egg", new SpawnEggItem(ModEntities.PORCUPINE, 0xa86518, 0x3b260f, new FabricItemSettings()));
 
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
