@@ -13,6 +13,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.seeals.testmod.TestMod;
 import net.seeals.testmod.block.custom.CornCropBlock;
+import net.seeals.testmod.block.custom.GemPolishingStationBlock;
 import net.seeals.testmod.block.custom.SoundBlock;
 import net.seeals.testmod.block.custom.TomatoCropBlock;
 import net.seeals.testmod.sound.ModSounds;
@@ -55,6 +56,10 @@ public class ModBlocks {
             new DoorBlock(FabricBlockSettings.copyOf(Blocks.REDSTONE_BLOCK).nonOpaque(), BlockSetType.STONE));
     public static final Block SAPPHIRE_TRAPDOOR = registerBlock("sapphire_trapdoor",
             new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.REDSTONE_BLOCK).nonOpaque(), BlockSetType.STONE));
+
+    public static final Block GEM_POLISHING_STATION = registerBlock("gem_polishing_station",
+            new GemPolishingStationBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+
     //This one is for adding crop blocks! Here, we created the block by not using the registerBlock method because we don't want it to be a block item. Because we're planting down its seeds not the crop itself!
     public static final Block TOMATO_CROP = Registry.register(Registries.BLOCK, new Identifier(TestMod.MOD_ID, "tomato_crop"),
             new TomatoCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));

@@ -43,7 +43,7 @@ public class ModItems { // other items will be added here.
     //for food item, food is not advance item with no custom code, so it use the Item class except in the fabric item setting, do this.
     public static final Item TOMATO= registerItem("tomato", new Item(new FabricItemSettings().food(ModFoodComponents.TOMATO)));
     public static final Item CORN= registerItem("corn", new Item(new FabricItemSettings().food(ModFoodComponents.TOMATO)));
-    //for adding seeds item. We use AliasedBlockItem so we could add it to the translation json using tomato_seeds instead of the name of the block itself.
+    //for adding seeds item. We use AliasedBlockItem. so we could add it to the translation json using tomato_seeds instead of the name of the block itself.
     public static final Item TOMATO_SEEDS = registerItem("tomato_seeds", new AliasedBlockItem(ModBlocks.TOMATO_CROP, new FabricItemSettings()));
     public static final Item CORN_SEEDS = registerItem("corn_seeds", new AliasedBlockItem(ModBlocks.CORN_CROP, new FabricItemSettings()));
 

@@ -1,4 +1,4 @@
-// 1.20.2	2024-05-24T19:39:00.6928919	Test Mod/Recipes
+// 1.20.2	2024-05-29T01:05:57.6403379	Test Mod/Recipes
 63f70cbcec8115535f76e75a7631014e4d663bb2 data\testmod\advancements\recipes\building_blocks\ruby.json
 799c084f9f014da4385ba528a4be80c64723367b data\testmod\advancements\recipes\redstone\sapphire_pressure_plate.json
 b940084084c0ea4433201a057f4c9fe263ac51a6 data\testmod\advancements\recipes\building_blocks\sapphire.json
@@ -31,8 +31,8 @@ cf6b1e9aaf11dd9f813e94aed572d2edb7660f5c data\testmod\advancements\recipes\misc\
 499ae66cf45a3c0caab89015047b484d074a4edd data\testmod\recipes\sapphire_door.json
 7ba640ea525d2416ee3fc38216550e00eb7e54b2 data\testmod\advancements\recipes\misc\ruby_block.json
 7c374a05274be5bece4abc57d9c2c9f2895e90c2 data\testmod\advancements\recipes\misc\sapphire_from_smelting_raw_sapphire.json
-a9701ec43e98746251c68823eef371521a3beae3 data\testmod\recipes\sapphire_from_blasting_sapphire_ore.json
 4299459ef81e90b3572a0ebccac6db08c05157d3 data\testmod\advancements\recipes\misc\sapphire_from_smelting_sapphire_ore.json
+a9701ec43e98746251c68823eef371521a3beae3 data\testmod\recipes\sapphire_from_blasting_sapphire_ore.json
 7d0b63848cfedd4361a94601baf1c08553902da1 data\testmod\recipes\sapphire_from_blasting_raw_sapphire.json
 2c2654f89533a34ca8bb1d94a15576dc71426440 data\testmod\recipes\sapphire_from_smelting_deepslate_sapphire_ore.json
 5e8367924f20419dd32ee611023101d57aa42635 data\testmod\advancements\recipes\misc\sapphire_from_blasting_deepslate_sapphire_ore.json

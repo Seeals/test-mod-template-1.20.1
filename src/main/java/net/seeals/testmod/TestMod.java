@@ -8,6 +8,7 @@ import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRe
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.minecraft.client.render.entity.model.EntityModelLayer;
 import net.seeals.testmod.block.ModBlocks;
+import net.seeals.testmod.block.entity.ModBlockEntities;
 import net.seeals.testmod.entity.ModEntities;
 import net.seeals.testmod.entity.client.ModModelLayers;
 import net.seeals.testmod.entity.client.PorcupineModel;
@@ -15,6 +16,7 @@ import net.seeals.testmod.entity.custom.PorcupineEntity;
 import net.seeals.testmod.item.ModFuelItems;
 import net.seeals.testmod.item.ModItemGroups;
 import net.seeals.testmod.item.ModItems;
+import net.seeals.testmod.screen.ModScreenHandler;
 import net.seeals.testmod.sound.ModSounds;
 import net.seeals.testmod.util.ModCustomTrades;
 import net.seeals.testmod.util.ModLootTableModifier;
@@ -38,6 +40,8 @@ public class TestMod implements ModInitializer {
 		ModVillagers.registerVillagers();
 		ModSounds.registerSounds();
 		ModEntities.registerModEntities();
+		ModBlockEntities.registerBlockEntities();
+		ModScreenHandler.registerScreenHandlers();
 
 		ModLootTableModifier.modifyLootTables();
 		ModCustomTrades.registerCustomTrade();
